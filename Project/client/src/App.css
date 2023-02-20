@@ -1,0 +1,226 @@
+.navbar {
+
+  height: 80px;
+  width: 100%;
+}
+
+.wrapperNav {
+  padding: 20px 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftNav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+
+}
+
+.centerNav {
+  font-size: x-large;
+  display: flex;
+}
+
+.rightNav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.links {
+  color: inherit;
+  text-decoration: none;
+}
+
+.cartIcon {
+  position: relative;
+}
+
+.cartIconNum {
+  font-size: 12px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #2879fe;
+  color: white;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  margin: 100px 200px 20px 200px;
+}
+
+.footerTop {
+  display: flex;
+  gap: 50px;
+}
+
+.footerItem {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: justify;
+  font-size: 14px;
+}
+
+.footerBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.fBleft {
+  display: flex;
+  align-items: center;
+}
+
+.copyright {
+  margin-left: 20px;
+  font-size: 12px;
+  color: gray;
+}
+
+.footerSpan {
+  color: gray;
+}
+
+.slider {
+  height: calc(100vh - 80px);
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.sliderContainer {
+  width: 300vw;
+  height: 100%;
+  display: flex;
+  transition: all 1s ease;
+}
+
+.sliderIcons {
+  width: fit-content;
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 100px;
+  gap: 10px;
+  margin: auto;
+}
+
+.sliderIcon {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.sliderImg {
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+}
+
+.featuredTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.featuredBottom {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.card {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.cardImage {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+.cardMainImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.cardSpan {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: white;
+  color: teal;
+  padding: 3px 5px;
+  z-index: 3;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.cardPrices {
+  display: flex;
+  gap: 20px;
+}
+
+
+/* admin Log in ****************************** */
+
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
